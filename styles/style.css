@@ -38,12 +38,8 @@
   height: 32px;
   width: 183px;
   background-image: url(../images/logo_place_header.svg);
-  background-size: contain;
+  background-size: 183px 32px;
   z-index: 2;
-}
-
-.logo__img {
-  width: 100%;
 }
 
 .header__title {
@@ -238,11 +234,13 @@
 
 .section-title_theme_dark {
   color: white;
+  position: relative;
   z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   color: white;
+  position: relative;
   z-index: 1;
 }
 
@@ -294,7 +292,7 @@
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
-  background-size: contain;
+  background-size: 183px 35px;
   height: 35px;
   width: 183px;
 }
