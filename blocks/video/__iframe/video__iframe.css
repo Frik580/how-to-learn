@@ -1,7 +1,6 @@
 .video__iframe {
   width: 515px;
   height: 316px;
-  opacity: 1;
   transition: opacity 0.5s linear;
 }
 
